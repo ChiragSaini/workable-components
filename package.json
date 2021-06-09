@@ -1,9 +1,31 @@
 {
   "name": "workable-components",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "author": {
+    "email": "chiragsaini7777@gmail.com",
+    "name": "Chirag Saini",
+    "url": "https://chiragsaini.xyz/"
+  },
+  "description": "UI components which are just workable. Nothing Special yet.",
+  "keywords": [
+    "react",
+    "ui",
+    "components"
+  ],
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiragSaini/workable-components.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.13.13",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
